@@ -6,9 +6,9 @@
     "packageName": "com.microsoft.teams.extension",
     "developer": {
         "name": "Teams App, Inc.",
-        "websiteUrl": "${{TAB_ENDPOINT}}",
-        "privacyUrl": "${{TAB_ENDPOINT}}/index.html#/privacy",
-        "termsOfUseUrl": "${{TAB_ENDPOINT}}/index.html#/termsofuse"
+        "websiteUrl": "https://www.example.com",
+        "privacyUrl": "https://www.example.com/privacy",
+        "termsOfUseUrl": "https://www.example.com/termsofuse"
     },
     "icons": {
         "color": "color.png",
@@ -30,8 +30,8 @@
         {
             "entityId": "index",
             "name": "Personal Tab",
-            "contentUrl": "${{TAB_ENDPOINT}}/index.html#/tab",
-            "websiteUrl": "${{TAB_ENDPOINT}}/index.html#/tab",
+            "contentUrl": "${{TAB_ENDPOINT}}/",
+            "websiteUrl": "${{TAB_ENDPOINT}}/",
             "scopes": [
                 "personal"
             ]

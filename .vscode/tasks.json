@@ -58,7 +58,7 @@
     {
       "label": "Start frontend",
       "type": "shell",
-      "command": "npm run dev:teamsfx",
+      "command": "npm run start",
       "isBackground": true,
       "options": {
         "cwd": "${workspaceFolder}"
